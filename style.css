@@ -1,0 +1,46 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Medium.ttf);
+    /* font-family: gilroy1;
+    src:url(Gilroy-Light.ttf) ; */
+}
+@font-face {
+    font-family: gilroylight;
+    src: url(Gilroy-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy ;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: all linear 30ms;
+    mix-blend-mode: difference;
+    
+}
+ h1{
+    letter-spacing: 8px;
+    font-size: 9vw;
+    
+    
+}
